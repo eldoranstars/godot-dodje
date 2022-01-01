@@ -1,0 +1,11 @@
+.import/
+# This folder stores all the files it imports automatically based on your source assets and their import flags.
+
+*.translation
+# These files are binary imported translations generated from CSV files.
+
+export_presets.cfg
+# This file contains all the export presets for the project, including sensitive information such as Android keystore credentials.
+
+.mono/
+# This folder stores automatically-generated Mono files. It only exists in projects that use the Mono version of Godot.
