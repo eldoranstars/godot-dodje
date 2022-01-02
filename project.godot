@@ -21,7 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="godot-tasks"
-run/main_scene="res://player.tscn"
+run/main_scene="res://main.tscn"
 config/icon="res://icon.png"
 
 [display]
