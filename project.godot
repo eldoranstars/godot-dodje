@@ -24,6 +24,13 @@ config/name="godot-tasks"
 run/main_scene="res://sayhello.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=480
+window/size/height=720
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
 [gdnative]
 
 singletons=[ "res://addons/godot-git-plugin/git_api.gdnlib" ]

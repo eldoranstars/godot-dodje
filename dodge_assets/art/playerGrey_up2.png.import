@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/enemySwimming_2.png-eb9a4add82171a4bb3955fc17881043d.stex"
+path="res://.import/playerGrey_up2.png-ce6a77241b62c89872671e4fbb407d97.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dodge_assets/art/enemySwimming_2.png"
-dest_files=[ "res://.import/enemySwimming_2.png-eb9a4add82171a4bb3955fc17881043d.stex" ]
+source_file="res://dodge_assets/art/playerGrey_up2.png"
+dest_files=[ "res://.import/playerGrey_up2.png-ce6a77241b62c89872671e4fbb407d97.stex" ]
 
 [params]
 

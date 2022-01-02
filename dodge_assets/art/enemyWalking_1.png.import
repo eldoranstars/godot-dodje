@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/playerGrey_walk1.png-cba064fcc845c24bf269d4ca731cb7bb.stex"
+path="res://.import/enemyWalking_1.png-d5ceaabc18541872d02c2adc056b0eb2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dodge_assets/art/playerGrey_walk1.png"
-dest_files=[ "res://.import/playerGrey_walk1.png-cba064fcc845c24bf269d4ca731cb7bb.stex" ]
+source_file="res://dodge_assets/art/enemyWalking_1.png"
+dest_files=[ "res://.import/enemyWalking_1.png-d5ceaabc18541872d02c2adc056b0eb2.stex" ]
 
 [params]
 
