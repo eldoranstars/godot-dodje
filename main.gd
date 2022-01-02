@@ -8,17 +8,18 @@ var score
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	randomize()
-	new_game()
 
 func _on_Player_hit():
-	 $ScoreTimer.stop()
-	 $MobTimer.stop()
+	$ScoreTimer.stop()
+	$MobTimer.stop()
+	$HUD.show_game_over()
 	
 func new_game():
-	 score = 0
-	 $Player.start($StartPosition.position)
-	 $StartTimer.start()
-
+	score = 0
+	$Player.start($StartPosition.position)
+	$StartTimer.start()
+	$HUD.update_score(score)
+	$HUD.show_message("Get Ready")
 
 func _on_MobTimer_timeout():
 	 # Choose a random location on Path2D.
@@ -37,10 +38,10 @@ func _on_MobTimer_timeout():
 	 mob.linear_velocity = Vector2(rand_range(mob.min_speed, mob.max_speed), 0)
 	 mob.linear_velocity = mob.linear_velocity.rotated(direction)
 
-
 func _on_ScoreTimer_timeout():
 	score += 1
-
+	# keep the display in sync with the changing score:
+	$HUD.update_score(score)
 
 func _on_StartTimer_timeout():
 	$MobTimer.start()
