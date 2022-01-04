@@ -13,8 +13,5 @@ export_presets.cfg
 .mono/
 # This folder stores automatically-generated Mono files. It only exists in projects that use the Mono version of Godot.
 
-*.zip
-# This file contains apps
-
 *.import
 # This file contains import data
