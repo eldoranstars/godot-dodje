@@ -1,6 +1,9 @@
 .import/
 # This folder stores all the files it imports automatically based on your source assets and their import flags.
 
+.export/
+# This folder stores all the files it exports automatically based on your source assets and their export flags.
+
 *.translation
 # These files are binary imported translations generated from CSV files.
 

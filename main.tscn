@@ -6,7 +6,7 @@
 [ext_resource path="res://hud.tscn" type="PackedScene" id=4]
 [ext_resource path="res://dodge_assets/art/sea.png" type="Texture" id=5]
 [ext_resource path="res://dodge_assets/art/hello-darkness-my-old-friend-sound-effect.mp3" type="AudioStream" id=6]
-[ext_resource path="res://dodge_assets/art/Ian Arber - Rolling With The Punches.mp3" type="AudioStream" id=7]
+[ext_resource path="res://dodge_assets/art/far-from-fome.mp3" type="AudioStream" id=7]
 
 [sub_resource type="Curve2D" id=2]
 _data = {
